@@ -1,10 +1,16 @@
+:root{
+    --main: grey;
+    --accent: black; 
+}
+
 *{
     box-sizing: border-box;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif ;
-    margin: 0 ;
+    color: var(--main);
+    margin: 1 ;
     display: flex ;
     flex-direction: column;
     min-height: 100px;
@@ -15,7 +21,25 @@ body {
 header {
     padding: 40px;
     text-align: center;
-    background-color: brown;
-    color: blueviolet;
+    background-color: var(--main);
+    color: var(--accent);
 }
 
+nav {
+    display: center;
+    color: var(--accent);
+}
+
+aside{
+    flex: 1;
+    background-color: var(--main);
+    padding: 80px;
+    text-align: left;
+}
+
+section{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
