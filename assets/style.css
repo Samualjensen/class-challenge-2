@@ -1,3 +1,5 @@
+:root {}
+
 * {
     box-sizing: border-box;
     ;
@@ -32,17 +34,17 @@ header h1 {
     justify-content: ;
 }
 
-header p {
+/* header p {
     display: flex;
     font-weight: bold;
     padding: 40px 20px 40px;
-}
+} */
 
-header nav {
+/* header nav {
     display: flex;
     flex-wrap: wrap;
 
-}
+} */
 
 header nav ul {
     display: flex;
@@ -50,7 +52,6 @@ header nav ul {
     padding: 40px;
     list-style: none;
     color: red;
-    font-style: italic;
     font-size: large;
 }
 
@@ -64,66 +65,87 @@ header nav ul a:hover {
     border-radius: 15px;
 }
 
-section{
-
-}
-
 .banner {
     background-color: red;
-    background-size: contain;
-    background-attachment: fixed;
-    background-size: 80%;
+    border-style: dashed;
 }
 
 .banner h2 {
+    display: flex;
+    justify-content: flex-end;
     font-style: normal;
     font-size: 40px;
-    float: right;
     padding: 0px 40px 0px 0px;
-    background-color: grey;
-}
-aside {
-    flex: 1;
-    padding: 80px;
-    text-align: left;
+    background-color: red;
+
 }
 
-aside ul {
+.flex-container {
     display: flex;
+    padding: 20px 20px 20px 20px;
     flex-direction: column;
-    justify-content: space-evenly;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.sidebar2 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bio {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    flex-direction: row;
+    margin: auto;
+    color: black;
 }
 
 /*start of contact section*/
-section {
-    text-align: center;
-    color: var(--main);
-    background-color: var(--main);
-}
-
-section h2 {
-    display: flex;
-    justify-content: center;
-    background-color: var(--main);
-}
-
-section nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    text-align: center;
-    font-size: large;
-    font-style: italic;
-    background: var(--main);
-}
-
-/*start of footer section*/
-footer {
+.contact-me {
     display: flex;
     justify-content: flex-start;
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    background: red;
-    margin: auto;
 }
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: black
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px 40px;
+}
+
+.contact:hover {
+    color: red;
+    border-radius: 15px;
