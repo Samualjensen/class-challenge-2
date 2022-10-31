@@ -20,7 +20,7 @@ Upload index.html, license.txt, and assets folder to the deployed webserver. The
 
 When the webpage is deployed it can be viewed normally on a standard desktop browser.
 
-*screenshot*
+![img](./assets/images/challenge-2-screenshot.png)
 
 ## Credits 
 
