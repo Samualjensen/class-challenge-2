@@ -11,7 +11,8 @@ body {
     display: flex;
     flex-direction: column;
     /* min-height: 100vh; */
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: url(/assets/Images/background-image.jpg);
 }
 
 /*start of header section*/
@@ -52,27 +53,27 @@ header nav ul a:hover {
     border-radius: 15px;
 }
 
-.banner {
+/* .banner {
     background-color: red;
     border-style: dashed;
-}
+} */
 
-.banner h2 {
+.banner {
     display: flex;
     justify-content: flex-end;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
     padding: 0px 40px 0px 0px;
-    background-color: red;
+    background-image: url(/assets/Images/banner.jpg);
 
 }
 
-.flex-container-1{
+.flex-container-1 {
     display: flex;
     justify-content: flex-start;
     padding: 20px 20px 20px 40px;
     font-size: large;
-    
+
 }
 
 .flex-container-2 {
@@ -93,12 +94,13 @@ header nav ul a:hover {
     flex-direction: column;
 }
 
-.aside .sidebar{
+.aside .sidebar {
     display: flex;
     justify-content: center;
     padding: 100px;
     text-align: center;
 }
+
 .work {
     display: flex;
     justify-content: flex-start;
@@ -114,11 +116,143 @@ header nav ul a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    font-size: x-large;
 }
 
-.code-refracter {
-    
+.code-refractor {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    height: 500px;
+    width: 70%;
+    font-weight: bold;
+    margin: 50px;
+    background-image: url(/assets/Images/horiseon-screen-shot.png);
+}
+
+.cr-text {
+    display: flex;
+    /* padding: 350px 0px 0px; */
+    justify-content: flex-start;
+    font-size: xx-large;
+    border: 10px;
+    border-style: solid;
+}
+
+.code-refractor:hover {
+    opacity: 60%;
+}
+
+.LED.Wall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    height: 300px;
+    width: 35%;
+    font-weight: bold;
+    margin: 50px;
+    background-image: url(/assets/Images/LED.webp);
+}
+
+.led-text {
+    display: flex;
+    /* padding: 350px 0px 0px; */
+    justify-content: flex-start;
+    font-size: xx-large;
+    border: 10px;
+    border-style: solid;
+}
+
+
+.LED.Wall:hover {
+    opacity: 60%;
+}
+
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    height: 300px;
+    width: 35%;
+    font-weight: bold;
+    margin: 50px;
+    background-image: url(/assets/Images/calculator.jpg);
+}
+
+.calculator-text {
+    display: flex;
+    /* padding: 350px 0px 0px; */
+    justify-content: flex-start;
+    font-size: xx-large;
+    border: 10px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: red;
+}
+
+
+.calculator:hover {
+    opacity: 60%;
+}
+
+
+.pastel-puzzles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    align-items: center;
+    height: 300px;
+    width: 35%;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.pastel-text {
+    display: flex;
+    /* padding: 350px 0px 0px; */
+    justify-content: flex-start;
+    font-size: xx-large;
+    border: 10px;
+    border-style: solid;
+}
+
+
+.pastel-puzzles:hover {
+    opacity: 60%;
+}
+
+
+.run-buddy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    height: 300px;
+    width: 35%;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.run-buddy-text {
+    display: flex;
+    /* padding: 350px 0px 0px; */
+    justify-content: flex-start;
+    font-size: xx-large;
+    border: 10px;
+    border-style: solid;
+}
+
+
+.run-buddy:hover {
+    opacity: 60%;
 }
 
 /*start of contact section*/
@@ -134,12 +268,13 @@ header nav ul a:hover {
     flex-wrap: wrap;
 }
 
+.contact:hover {
+    opacity: 60%;
+    color: red;
+}
+
 footer {
     display: flex;
     justify-content: flex-end;
     padding: 40px 40px 40px;
 }
-
-.contact:hover {
-    color: red;
-    border-radius: 15px;
