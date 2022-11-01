@@ -10,7 +10,7 @@ body {
     margin: 1;
     display: flex;
     flex-direction: column;
-    background-image: url(./images/background-image.jpg);
+    background-image: url(./Images/background-image.jpg);
 }
 
 /*start of header section*/
@@ -57,7 +57,7 @@ header nav ul a:hover {
     font-style: normal;
     font-size: 30px;
     padding: 0px 40px 0px 0px;
-    background-image: url(./images/banner.jpg);
+    background-image: url(./Images/banner.jpg);
 
 }
 
@@ -119,7 +119,7 @@ header nav ul a:hover {
     width: 70%;
     font-weight: bold;
     margin: 50px;
-    background-image: url(./images/horiseon-screen-shot.png);
+    background-image: url(./Images/horiseon-screen-shot.png);
 }
 
 .cr-text {
@@ -148,7 +148,7 @@ header nav ul a:hover {
     width: 35%;
     font-weight: bold;
     margin: 50px;
-    background-image: url(./images/LED.webp);
+    background-image: url(./Images/LED.webp);
 }
 
 .led-text {
@@ -178,7 +178,7 @@ header nav ul a:hover {
     width: 35%;
     font-weight: bold;
     margin: 50px;
-    background-image: url(./images/calculator.jpg);
+    background-image: url(./Images/calculator.jpg);
 }
 
 .calculator-text {
@@ -208,7 +208,7 @@ header nav ul a:hover {
     width: 35%;
     font-weight: bold;
     margin: 50px;
-    background-image: url(./images/pastel.png);
+    background-image: url(./Images/pastel.png);
 }
 
 .pastel-text {
@@ -238,7 +238,7 @@ header nav ul a:hover {
     width: 35%;
     font-weight: bold;
     margin: 50px;
-    background-image: url(./images/run-buddy.jpg);
+    background-image: url(./Images/run-buddy.jpg);
 }
 
 .run-buddy-text {
